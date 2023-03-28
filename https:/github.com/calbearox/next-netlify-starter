@@ -1,0 +1,305 @@
+12:49:30 PM: Build ready to start
+12:49:32 PM: build-image version: c1f0e3189beff44ebec7048bf7ab2e75cb09660b (focal)
+12:49:32 PM: buildbot version: c1f0e3189beff44ebec7048bf7ab2e75cb09660b
+12:49:32 PM: Fetching cached dependencies
+12:49:32 PM: Failed to fetch cache, continuing with build
+12:49:32 PM: Starting to prepare the repo for build
+12:49:32 PM: No cached dependencies found. Cloning fresh repo
+12:49:32 PM: git clone --filter=blob:none https://github.com/calbearox/next-netlify-starter
+12:49:33 PM: Preparing Git Reference refs/heads/main
+12:49:33 PM: Parsing package.json dependencies
+12:49:34 PM: Starting build script
+12:49:34 PM: Installing dependencies
+12:49:34 PM: Python version set to 2.7
+12:49:35 PM: v16.19.1 is already installed.
+12:49:35 PM: Now using node v16.19.1 (npm v8.19.3)
+12:49:35 PM: Enabling Node.js Corepack
+12:49:35 PM: Started restoring cached build plugins
+12:49:35 PM: Finished restoring cached build plugins
+12:49:35 PM: Attempting Ruby version 2.7.2, read from environment
+12:49:36 PM: Using Ruby version 2.7.2
+12:49:36 PM: Using PHP version 8.0
+12:49:36 PM: Started restoring cached corepack dependencies
+12:49:36 PM: Finished restoring cached corepack dependencies
+12:49:36 PM: No npm workspaces detected
+12:49:36 PM: Started restoring cached node modules
+12:49:36 PM: Finished restoring cached node modules
+12:49:36 PM: Installing npm packages using npm version 8.19.3
+12:49:38 PM: npm WARN ERESOLVE overriding peer dependency
+12:49:38 PM: npm WARN While resolving: react-server-dom-webpack@0.0.0-experimental-3c4c1c470-20211021
+12:49:38 PM: npm WARN Found: react@17.0.2
+12:49:38 PM: npm WARN node_modules/react
+12:49:38 PM: npm WARN   react@"^17.0.2" from the root project
+12:49:38 PM: npm WARN   5 more (@next/react-dev-overlay, next, react-dom, styled-jsx, use-subscription)
+12:49:38 PM: npm WARN
+12:49:38 PM: npm WARN Could not resolve dependency:
+12:49:38 PM: npm WARN peer react@"0.0.0-experimental-3c4c1c470-20211021" from react-server-dom-webpack@0.0.0-experimental-3c4c1c470-20211021
+12:49:38 PM: npm WARN node_modules/react-server-dom-webpack
+12:49:38 PM: npm WARN   react-server-dom-webpack@"0.0.0-experimental-3c4c1c470-20211021" from next@12.0.1
+12:49:38 PM: npm WARN   node_modules/next
+12:49:38 PM: npm WARN
+12:49:38 PM: npm WARN Conflicting peer dependency: react@0.0.0-experimental-3c4c1c470-20211021
+12:49:38 PM: npm WARN node_modules/react
+12:49:38 PM: npm WARN   peer react@"0.0.0-experimental-3c4c1c470-20211021" from react-server-dom-webpack@0.0.0-experimental-3c4c1c470-20211021
+12:49:38 PM: npm WARN   node_modules/react-server-dom-webpack
+12:49:38 PM: npm WARN     react-server-dom-webpack@"0.0.0-experimental-3c4c1c470-20211021" from next@12.0.1
+12:49:38 PM: npm WARN     node_modules/next
+12:49:38 PM: npm WARN ERESOLVE overriding peer dependency
+12:49:38 PM: npm WARN While resolving: react-server-dom-webpack@0.0.0-experimental-3c4c1c470-20211021
+12:49:38 PM: npm WARN Found: react-dom@17.0.2
+12:49:38 PM: npm WARN node_modules/react-dom
+12:49:38 PM: npm WARN   react-dom@"^17.0.2" from the root project
+12:49:38 PM: npm WARN   2 more (@next/react-dev-overlay, next)
+12:49:38 PM: npm WARN
+12:49:38 PM: npm WARN Could not resolve dependency:
+12:49:38 PM: npm WARN peer react-dom@"0.0.0-experimental-3c4c1c470-20211021" from react-server-dom-webpack@0.0.0-experimental-3c4c1c470-20211021
+12:49:38 PM: npm WARN node_modules/react-server-dom-webpack
+12:49:38 PM: npm WARN   react-server-dom-webpack@"0.0.0-experimental-3c4c1c470-20211021" from next@12.0.1
+12:49:38 PM: npm WARN   node_modules/next
+12:49:38 PM: npm WARN
+12:49:38 PM: npm WARN Conflicting peer dependency: react-dom@0.0.0-experimental-3c4c1c470-20211021
+12:49:38 PM: npm WARN node_modules/react-dom
+12:49:38 PM: npm WARN   peer react-dom@"0.0.0-experimental-3c4c1c470-20211021" from react-server-dom-webpack@0.0.0-experimental-3c4c1c470-20211021
+12:49:38 PM: npm WARN   node_modules/react-server-dom-webpack
+12:49:38 PM: npm WARN     react-server-dom-webpack@"0.0.0-experimental-3c4c1c470-20211021" from next@12.0.1
+12:49:38 PM: npm WARN     node_modules/next
+12:49:42 PM: npm WARN deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+12:49:43 PM: npm WARN deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+12:49:43 PM: npm WARN deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+12:49:44 PM: npm WARN deprecated chokidar@2.1.8: Chokidar 2 does not receive security updates since 2019. Upgrade to chokidar 3 with 15x fewer dependencies
+12:49:45 PM: npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+12:49:45 PM: npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+12:49:50 PM: added 757 packages, and audited 758 packages in 14s
+12:49:50 PM: 62 packages are looking for funding
+12:49:50 PM:   run `npm fund` for details
+12:49:50 PM: 21 vulnerabilities (2 low, 5 moderate, 9 high, 5 critical)
+12:49:50 PM: To address all issues, run:
+12:49:50 PM:   npm audit fix
+12:49:50 PM: Run `npm audit` for details.
+12:49:50 PM: npm packages installed
+12:49:51 PM: Started restoring cached go cache
+12:49:51 PM: Finished restoring cached go cache
+12:49:51 PM: Installing Go version 1.16.5 (requested 1.16.5)
+12:49:55 PM: go version go1.16.5 linux/amd64
+12:49:55 PM: Detected 1 framework(s)
+12:49:55 PM: "next" at version "12.0.1"
+12:49:55 PM: Section completed: initializing
+12:49:57 PM: ​
+12:49:57 PM:   Netlify Build                                                 
+12:49:57 PM: ────────────────────────────────────────────────────────────────
+12:49:57 PM: ​
+12:49:57 PM: ❯ Version
+12:49:57 PM:   @netlify/build 29.5.8
+12:49:57 PM: ​
+12:49:57 PM: ❯ Flags
+12:49:57 PM:   baseRelDir: true
+12:49:57 PM:   buildId: 6405005a2ae9335e773b6522
+12:49:57 PM:   deployId: 6405005a2ae9335e773b6524
+12:49:57 PM: ​
+12:49:57 PM: ❯ Current directory
+12:49:57 PM:   /opt/build/repo
+12:49:57 PM: ​
+12:49:57 PM: ❯ Config file
+12:49:57 PM:   /opt/build/repo/netlify.toml
+12:49:57 PM: ​
+12:49:57 PM: ❯ Context
+12:49:57 PM:   production
+12:49:57 PM: ​
+12:49:57 PM: ❯ Installing plugins
+12:49:57 PM:    - netlify-plugin-jekyll-cache@1.0.0
+12:49:58 PM: ​
+12:49:58 PM: ❯ Using Next.js Runtime - v4.0.0-beta.4
+12:49:58 PM: ​
+12:49:58 PM: ❯ Loading plugins
+12:49:58 PM:    - netlify-plugin-jekyll-cache@1.0.0 from Netlify app
+12:49:58 PM: ​
+12:49:58 PM: ❯ Outdated plugins
+12:49:58 PM:    - @netlify/plugin-nextjs@4.0.0-beta.4: latest version is 4.30.4
+12:49:58 PM:      Migration guide: https://ntl.fyi/next-plugin-migration
+12:49:58 PM:      To upgrade this plugin, please update its version in "package.json"
+12:49:59 PM: ​
+12:49:59 PM:   1. netlify-plugin-jekyll-cache (onPreBuild event)             
+12:49:59 PM: ────────────────────────────────────────────────────────────────
+12:49:59 PM: ​
+12:49:59 PM: No Jekyll cache found. Skipping
+12:49:59 PM: ​
+12:49:59 PM: (netlify-plugin-jekyll-cache onPreBuild completed in 11ms)
+12:49:59 PM: ​
+12:49:59 PM:   2. @netlify/plugin-nextjs (onPreBuild event)                  
+12:49:59 PM: ────────────────────────────────────────────────────────────────
+12:49:59 PM: ​
+12:49:59 PM: Thank you for trying the Essential Next.js beta plugin. 
+12:49:59 PM: Please share feedback (both good and bad) at https://ntl.fyi/next-beta-feedback
+12:49:59 PM: No Next.js cache to restore.
+12:49:59 PM: Netlify configuration property "build.environment.NEXT_PRIVATE_TARGET" value changed.
+12:49:59 PM: ​
+12:49:59 PM: (@netlify/plugin-nextjs onPreBuild completed in 20ms)
+12:49:59 PM: ​
+12:49:59 PM:   3. build.command from netlify.toml                            
+12:49:59 PM: ────────────────────────────────────────────────────────────────
+12:49:59 PM: ​
+12:49:59 PM: $ npm run build
+12:50:00 PM: > next-netlify-starter@0.5.0 build
+12:50:00 PM: > next build
+12:50:00 PM: warn  - No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+12:50:00 PM: info  - Checking validity of types...
+12:50:00 PM: warn  - No ESLint configuration detected. Run next lint to begin setup
+12:50:00 PM: info  - Creating an optimized production build...
+12:50:04 PM: info  - Compiled successfully
+12:50:04 PM: info  - Collecting page data...
+12:50:06 PM: info  - Generating static pages (0/3)
+12:50:06 PM: info  - Generating static pages (3/3)
+12:50:07 PM: info  - Finalizing page optimization...
+12:50:07 PM: Page                                       Size     First Load JS
+12:50:07 PM: ┌ ○ /                                      623 B          71.7 kB
+12:50:07 PM: ├   └ css/238dcb4286375457.css             195 B
+12:50:07 PM: ├   /_app                                  0 B            71.1 kB
+12:50:07 PM: └ ○ /404                                   194 B          71.3 kB
+12:50:07 PM: + First Load JS shared by all              71.1 kB
+12:50:07 PM:   ├ chunks/framework-91d7f78b5b4003c8.js   42 kB
+12:50:07 PM:   ├ chunks/main-be90e00a3c0a73d4.js        27.8 kB
+12:50:07 PM:   ├ chunks/pages/_app-fb7ecd67e368caea.js  492 B
+12:50:07 PM:   ├ chunks/webpack-514908bffb652963.js     770 B
+12:50:07 PM:   └ css/e48339f24659b4b6.css               402 B
+12:50:07 PM: ○  (Static)  automatically rendered as static HTML (uses no initial props)
+12:50:07 PM: ​
+12:50:07 PM: (build.command completed in 7.5s)
+12:50:07 PM: ​
+12:50:07 PM:   4. @netlify/plugin-nextjs (onBuild event)                     
+12:50:07 PM: ────────────────────────────────────────────────────────────────
+12:50:07 PM: ​
+12:50:07 PM: Netlify configuration property "redirects" value changed to [
+12:50:07 PM:   {
+12:50:07 PM:     from: '/_next/image*',
+12:50:07 PM:     query: { url: ':url', w: ':width', q: ':quality' },
+12:50:07 PM:     to: '/_ipx/w_:width,q_:quality/:url',
+12:50:07 PM:     status: 301
+12:50:07 PM:   },
+12:50:07 PM:   { from: '/_ipx/*', to: '/.netlify/builders/_ipx', status: 200 },
+12:50:07 PM:   { from: '/cache/*', to: '/404.html', status: 404, force: true },
+12:50:07 PM:   { from: '/server/*', to: '/404.html', status: 404, force: true },
+12:50:07 PM:   { from: '/serverless/*', to: '/404.html', status: 404, force: true },
+12:50:07 PM:   { from: '/traces', to: '/404.html', status: 404, force: true },
+12:50:07 PM:   {
+12:50:07 PM:     from: '/routes-manifest.json',
+12:50:07 PM:     to: '/404.html',
+12:50:07 PM:     status: 404,
+12:50:07 PM:     force: true
+12:50:07 PM:   },
+12:50:07 PM:   {
+12:50:07 PM:     from: '/build-manifest.json',
+12:50:07 PM:     to: '/404.html',
+12:50:07 PM:     status: 404,
+12:50:07 PM:     force: true
+12:50:07 PM:   },
+12:50:07 PM:   {
+12:50:07 PM:     from: '/prerender-manifest.json',
+12:50:07 PM:     to: '/404.html',
+12:50:07 PM:     status: 404,
+12:50:07 PM:     force: true
+12:50:07 PM:   },
+12:50:07 PM:   {
+12:50:07 PM:     from: '/react-loadable-manifest.json',
+12:50:07 PM:     to: '/404.html',
+12:50:07 PM:     status: 404,
+12:50:07 PM:     force: true
+12:50:07 PM:   },
+12:50:07 PM:   { from: '/BUILD_ID', to: '/404.html', status: 404, force: true },
+12:50:07 PM:   { from: '/_next/static/*', to: '/static/:splat', status: 200 },
+12:50:07 PM:   {
+12:50:07 PM:     from: '/*',
+12:50:07 PM:     to: '/.netlify/functions/___netlify-handler',
+12:50:07 PM:     status: 200,
+12:50:07 PM:     force: true,
+12:50:07 PM:     conditions: { Cookie: [Array] }
+12:50:07 PM:   },
+12:50:07 PM:   {
+12:50:07 PM:     from: '/*',
+12:50:07 PM:     to: '/.netlify/functions/___netlify-handler',
+12:50:07 PM:     status: 200
+12:50:07 PM:   }
+12:50:07 PM: ].
+12:50:07 PM: ​
+12:50:07 PM: (@netlify/plugin-nextjs onBuild completed in 22ms)
+12:50:07 PM: ​
+12:50:07 PM:   5. Functions bundling                                         
+12:50:07 PM: ────────────────────────────────────────────────────────────────
+12:50:07 PM: ​
+12:50:07 PM: Packaging Functions from .netlify/functions-internal directory:
+12:50:07 PM:  - ___netlify-handler/___netlify-handler.js
+12:50:07 PM:  - ___netlify-odb-handler/___netlify-odb-handler.js
+12:50:07 PM:  - _ipx/_ipx.js
+12:50:07 PM: ​
+12:50:16 PM: ​
+12:50:16 PM: (Functions bundling completed in 8.9s)
+12:50:16 PM: ​
+12:50:16 PM:   6. netlify-plugin-jekyll-cache (onPostBuild event)            
+12:50:16 PM: ────────────────────────────────────────────────────────────────
+12:50:16 PM: ​
+12:50:16 PM: Jekyll cache stored
+12:50:16 PM: ​
+12:50:16 PM: (netlify-plugin-jekyll-cache onPostBuild completed in 126ms)
+12:50:16 PM: ​
+12:50:16 PM:   7. @netlify/plugin-nextjs (onPostBuild event)                 
+12:50:16 PM: ────────────────────────────────────────────────────────────────
+12:50:16 PM: ​
+12:50:16 PM: Next.js cache saved.
+12:50:16 PM: ​
+12:50:16 PM: (@netlify/plugin-nextjs onPostBuild completed in 65ms)
+12:50:16 PM: ​
+12:50:16 PM:   8. Deploy site                                                
+12:50:16 PM: ────────────────────────────────────────────────────────────────
+12:50:16 PM: ​
+12:50:16 PM: Starting to deploy site from '.next'
+12:50:16 PM: Calculating files to upload
+12:50:16 PM: 12 new files to upload
+12:50:16 PM: 3 new functions to upload
+12:50:24 PM: Section completed: deploying
+12:50:24 PM: Starting post processing
+12:50:24 PM: Post processing - HTML
+12:50:25 PM: Post processing - header rules
+12:50:25 PM: Post processing - redirect rules
+12:50:25 PM: Post processing done
+12:50:25 PM: Section completed: postprocessing
+12:50:26 PM: Site is live ✨
+12:50:26 PM: Finished waiting for live deploy in 2.066s
+12:50:26 PM: Site deploy was successfully initiated
+12:50:26 PM: ​
+12:50:26 PM: (Deploy site completed in 10.2s)
+12:50:26 PM: ​
+12:50:26 PM:   9. @netlify/plugin-nextjs (onEnd event)                       
+12:50:26 PM: ────────────────────────────────────────────────────────────────
+12:50:26 PM: ​
+12:50:26 PM: Thank you for trying the Essential Next.js beta plugin. 
+12:50:26 PM: Please share feedback (both good and bad) at https://ntl.fyi/next-beta-feedback
+12:50:26 PM: ​
+12:50:26 PM: (@netlify/plugin-nextjs onEnd completed in 3ms)
+12:50:27 PM: ​
+12:50:27 PM:   Netlify Build Complete                                        
+12:50:27 PM: ────────────────────────────────────────────────────────────────
+12:50:27 PM: ​
+12:50:27 PM: (Netlify Build completed in 29.8s)
+12:50:27 PM: Caching artifacts
+12:50:27 PM: Started saving node modules
+12:50:27 PM: Finished saving node modules
+12:50:27 PM: Started saving build plugins
+12:50:27 PM: Finished saving build plugins
+12:50:27 PM: Started saving corepack cache
+12:50:27 PM: Finished saving corepack cache
+12:50:27 PM: Started saving pip cache
+12:50:27 PM: Finished saving pip cache
+12:50:27 PM: Started saving emacs cask dependencies
+12:50:27 PM: Finished saving emacs cask dependencies
+12:50:27 PM: Started saving maven dependencies
+12:50:27 PM: Finished saving maven dependencies
+12:50:27 PM: Started saving boot dependencies
+12:50:27 PM: Finished saving boot dependencies
+12:50:27 PM: Started saving rust rustup cache
+12:50:27 PM: Finished saving rust rustup cache
+12:50:27 PM: Started saving go dependencies
+12:50:27 PM: Finished saving go dependencies
+12:50:28 PM: Build script success
+12:50:28 PM: Section completed: building
+12:50:28 PM: Uploading Cache of size 125.6MB
+12:50:29 PM: Section completed: cleanup
+12:50:29 PM: Finished processing build request in 57.512s
